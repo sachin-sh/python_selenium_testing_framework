@@ -11,7 +11,7 @@ def setup():
         driver = webdriver.Firefox()
         print("Launching firefox browser.........")
     else:
-        driver = driver = webdriver.Chrome()
+        driver = webdriver.Chrome()
     return driver
 
 def pytest_addoption(parser):  # This will get the value from CLI /hooks
